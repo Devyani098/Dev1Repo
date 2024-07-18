@@ -56,7 +56,7 @@ public class MercuryProg2
 	@Test
 	public void login()
 	{
-		driver.findElement(By.name("userName")).sendKeys("Deva");
+		driver.findElement(By.name("userName")).sendKeys("Devyani");
 		driver.findElement(By.name("password")).sendKeys("Test@123");
 		driver.findElement(By.name("submit")).click();
 		//driver.findElement(By.linkText("SIGN-OFF")).click();
@@ -67,7 +67,7 @@ public class MercuryProg2
 	{
 		//driver.navigate().back();
 		driver.findElement(By.linkText("REGISTER")).click();
-		driver.findElement(By.name("firstName")).sendKeys("Deva");
+		driver.findElement(By.name("firstName")).sendKeys("Devyani");
 		driver.findElement(By.name("lastName")).sendKeys("Test");
 		driver.findElement(By.name("phone")).sendKeys("3287446813");
 		driver.findElement(By.name("userName")).sendKeys("devyani@gmail.com");
